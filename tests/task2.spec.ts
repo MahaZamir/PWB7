@@ -1,7 +1,7 @@
 import { test, expect, Page } from '@playwright/test'
 import * as dotenv from 'dotenv'
 import urls from '../fixture/url.json'
-import loginData from '../fixture/Data.json'
+import loginData from '../fixture/data.json'
 
 dotenv.config({ override: true })
 
