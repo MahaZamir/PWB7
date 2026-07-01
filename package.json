@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,7 +13,8 @@
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0",
-    "allure-playwright": "^3.10.2"
+    "allure-playwright": "^3.10.2",
+    "allure-commandline": "^2.x.x"
   },
   "dependencies": {
     "dotenv": "^17.4.2"
