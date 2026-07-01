@@ -1,0 +1,39 @@
+observe the project and in api test folder, as an playwright automation expert create POST API test for the following request details. create a new test file for this
+request url: https://api.restful-api.dev/objects
+request body:{
+"name": "Apple MacBook Pro 16",
+"data": {
+"year": 2019,
+"price": 1849.99,
+"CPU model": "Intel Core i9",
+"Hard disk size": "1 TB"
+}
+}
+
+
+observe the project and in api test folder, as an playwright automation expert create PUT API test for the following request details. create a new test file for this
+request url: https://api.restful-api.dev/objects/{id}
+request body:{
+  "name": "Apple MacBook Pro 16",
+  "data": {
+    "year": 2019,
+    "price": 2049.99,
+    "CPU model": "Intel Core i9",
+    "Hard disk size": "1 TB",
+    "color": "silver"
+  }
+}
+// if api limit is exhausted add error handling
+
+
+observe the project and in api test folder, as an playwright automation expert create PATCH API test for the following request details. create a new test file for this
+request url:
+https://api.restful-api.dev/objects/{id}
+request body:{
+"name": "Apple MacBook Pro 16 (Updated Name)"
+}
+if api limit is exhausted add error handling
+
+
+observe the project and in api test folder, as an playwright automation expert create Delete API test for the following request details. create a new test file for this
+request url:https://api.restful-api.dev/objects/{id}
