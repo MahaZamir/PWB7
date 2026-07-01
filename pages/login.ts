@@ -26,5 +26,3 @@ class LoginPage {
         await this.submitbutton.click()
     }
 }
-
-export default LoginPage;
