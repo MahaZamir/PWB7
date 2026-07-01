@@ -1,8 +1,6 @@
 import {test, expect, Page} from '@playwright/test';
-import loginPage from '../pages/login';
-
-const username = process.env.TEST_USERNAME ?? '';
-const password = process.env.TEST_PASSWORD ?? '';
+import loginPage from '../pages/login.ts';
+import { username,password } from '../fixture/constant.ts';
 
 test.describe('Login - Page Object Model', () => {
 
