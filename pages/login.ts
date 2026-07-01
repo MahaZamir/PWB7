@@ -27,4 +27,8 @@ class LoginPage {
     }
 }
 
+<<<<<<< HEAD
 export default LoginPage;
+=======
+export default LoginPage;
+>>>>>>> 3336d42670e4206a8e7c6e9fc06b2b2ba8b57651
