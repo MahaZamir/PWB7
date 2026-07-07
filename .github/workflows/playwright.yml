@@ -28,7 +28,7 @@ jobs:
 
     - name: Install Chromium
       run: npx playwright install chromium
-      timeout-minutes: 8
+      timeout-minutes: 20
       env:
         DEBUG: pw:install
 
