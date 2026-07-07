@@ -1,0 +1,13 @@
+Setup — Created Object ID: ff8081819d82fab6019f3c89fa272a4d | Original price: 1849.99
+Updated Object Response: {
+  id: 'ff8081819d82fab6019f3c89fa272a4d',
+  name: 'Apple MacBook Pro 16',
+  updatedAt: 1783427103565,
+  data: {
+    year: 2019,
+    price: 2049.99,
+    'CPU model': 'Intel Core i9',
+    'Hard disk size': '1 TB',
+    color: 'silver'
+  }
+}
