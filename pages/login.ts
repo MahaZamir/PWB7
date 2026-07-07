@@ -1,6 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 
-class LoginPage {
+export default class LoginPage {
 
     //field locators define 
     readonly loginfield: Locator;
